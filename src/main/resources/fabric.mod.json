@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "skere_gulag_camera",
+  "version": "${version}",
+  "name": "Smaash - Gulag Camera",
+  "description": "Camara elevada jugable y marcador personal para el Gulag jurasico de Smaash (Fabric 1.21.1).",
+  "authors": ["Smaash"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    { "config": "skere_gulag_camera.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}
